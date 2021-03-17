@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Added Instagram logo to the login activity for aesthetics 
+- [X] Added Instagram logo to the login activity for aesthetics 
 
 ## Video Walkthrough
 
