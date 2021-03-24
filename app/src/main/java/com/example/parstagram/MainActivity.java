@@ -52,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.mipmap.nav_logo_whiteout);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(0xffffff));
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
         setContentView(R.layout.activity_main);
         bottomNavigationView = findViewById(R.id.bottomNavigation);
 
